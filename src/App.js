@@ -1,25 +1,16 @@
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import Header from "./componentes/header.js";
+import Body from "./componentes/body.js";
+import Menu from "./componentes/menu.js";
+import Fetch from "./componentes/fetch.js";
+import Hook from "./componentes/Hook.js";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      {/* <Fetch /> */}
+      <Hook initialNumber={1} />
     </div>
   );
 }
-
 export default App;

@@ -1,13 +1,84 @@
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: #fff;
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
+}
+
+.content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  padding: 100px;
+}
+.fotos {
+  width: 400px;
+  border-radius: 24px;
+}
+
+.flex {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+}
+.botoncillo {
+  height: 50px;
+  width: 50px;
+  border-radius: 24px;
+  border: 2px dotted black;
+  background-color: pink;
+}
+
+.botoncillo:hover {
+  border: 2px solid black;
+  background-color: pink;
+}
+
+.flexie {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding: 50px;
+}
+
+.fotohook {
+  width: 200px;
+  border-radius: 24px;
+}
+
+.botoneshook {
+  display: flex;
+  justify-content: center;
+}
+.botoneshook > button {
+  height: 48px;
+  border-radius: 2px;
+  border: 1px solid black;
+  background-color: pink;
+  margin: 20px;
+}
+
+.botoneshook > button:hover {
+  background-color: rgb(244, 145, 162);
+}
+
+.titlehook {
+  padding: 20px;
+}
+
+.bodyhook {
+  height: 100vh;
+  background-color: aliceblue;
 }
